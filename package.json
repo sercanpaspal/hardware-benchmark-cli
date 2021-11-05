@@ -1,0 +1,36 @@
+{
+	"name": "hwb",
+	"version": "1.0.0",
+	"description": "Find easy and fast hardware benchmark point and specifications.",
+	"main": "index.js",
+	"bin": {
+		"hwb": "index.js"
+	},
+	"scripts": {
+		"watch": "nodemon index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"hardware info cli",
+		"hardware benchmark cli",
+		"hardware",
+		"benchmark",
+		"cpu info",
+		"gpu info"
+	],
+	"author": "Sercan Paspal",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sercanpaspal/hardware-benchmark-cli"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.12"
+	},
+	"dependencies": {
+		"chalk": "^4.1.2",
+		"cheerio": "^1.0.0-rc.10",
+		"inquirer": "^8.2.0",
+		"node-fetch": "^2.6.1"
+	}
+}
